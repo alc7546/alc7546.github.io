@@ -1,0 +1,28 @@
+$theme-colors:(
+    "primary": #0787ff,
+    "danger": #e71919
+);
+
+$border-radius: 10rem;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+.container-full{
+    &.page-introduction{
+        background-color: rgb(211, 240, 211);
+    }
+    padding-bottom: 25rem;
+}
+
+//Project Header
+
+
+.img-fluid{
+    &.poetry-img{
+        width: 90%;
+        height: 80%;
+    }
+}
