@@ -5,21 +5,47 @@ $theme-colors:(
 
 $border-radius: 10rem;
 
-
+@font-face{
+    font-family: "D-DIN";
+    src: url('../fonts/din/D-DIN.woff2') format('woff2'),
+         url('../fonts/din/D-DIN.woff') format('woff'),
+         url('../fonts/din/D-DIN.ttf') format('truetype'),
+         url('../fonts/din/D-DIN.otf') format('opentype'),
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
-
-.container-full{
-    &.page-introduction{
-        background-color: rgb(211, 240, 211);
-    }
-    padding-bottom: 25rem;
+// Standard font across
+body{
+    font-family:"D-DIN";
 }
 
-//Project Header
+//Nav Bar Header
+.navbar{
+    padding-left: 21%;
+    padding-right: 21%;
+    .navbar-brand{
+        font-size:25px;
+    }
+    .navbar-nav{
+        font-size: 20px;
+    }
+}
 
+// Intro container
+.container-full{
+    background-image: linear-gradient(-225deg, #1b9142 0%, #229b85 100%);
+    //background-image: linear-gradient( 325deg, rgb(233, 156, 93) 0%, #FD6585 100%);
+    
+    color:white;
+    padding-bottom: 20rem;
+    h1{
+        &.display-1{
+            padding-top: 5rem;
+        }
+    }
+}
 
+// Image Sizer -- will change for actual images that will be sized properly!
 .img-fluid{
     &.poetry-img{
         width: 90%;

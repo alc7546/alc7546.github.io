@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "D-DIN";
+  src: url("../fonts/din/D-DIN.woff2") format("woff2"), url("../fonts/din/D-DIN.woff") format("woff"), url("../fonts/din/D-DIN.ttf") format("truetype"), url("../fonts/din/D-DIN.otf") format("opentype");
+}
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -9511,11 +9515,28 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.container-full {
-  padding-bottom: 25rem;
+body {
+  font-family: "D-DIN";
 }
-.container-full.page-introduction {
-  background-color: #d3f0d3;
+
+.navbar {
+  padding-left: 21%;
+  padding-right: 21%;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+}
+.navbar .navbar-nav {
+  font-size: 20px;
+}
+
+.container-full {
+  background-image: linear-gradient(-225deg, #1b9142 0%, #229b85 100%);
+  color: white;
+  padding-bottom: 20rem;
+}
+.container-full h1.display-1 {
+  padding-top: 5rem;
 }
 
 .img-fluid.poetry-img {
