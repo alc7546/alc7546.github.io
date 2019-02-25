@@ -17,11 +17,12 @@ $border-radius: 10rem;
 // Standard font across
 body{
     font-family:"D-DIN";
+    padding-top: 50px;
 }
 
 //Nav Bar Header
 .navbar{
-    padding-left: 21%;
+    padding-left: 21%; 
     padding-right: 21%;
     .navbar-brand{
         font-size:25px;
@@ -31,10 +32,11 @@ body{
     }
 }
 
+
 // Intro container
 .container-full{
-    background-image: linear-gradient(-225deg, #1b9142 0%, #229b85 100%);
-    //background-image: linear-gradient( 325deg, rgb(233, 156, 93) 0%, #FD6585 100%);
+    //background-image: linear-gradient(325deg, #4ab66e 0%, #229b85 100%);
+    background-image: linear-gradient( 325deg, rgb(233, 156, 93) 0%, #FD6585 100%);
     
     color:white;
     padding-bottom: 20rem;
@@ -45,6 +47,13 @@ body{
     }
 }
 
+.project-header{
+    margin-top:8rem;
+}
+
+.contact{
+    margin-bottom: 10rem;
+}
 // Image Sizer -- will change for actual images that will be sized properly!
 .img-fluid{
     &.poetry-img{
@@ -52,3 +61,5 @@ body{
         height: 80%;
     }
 }
+
+// Animations
