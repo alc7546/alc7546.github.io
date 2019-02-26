@@ -9544,13 +9544,12 @@ body {
   margin-top: 8rem;
 }
 
-.contact {
-  margin-bottom: 10rem;
+.project {
+  padding-top: 2rem;
 }
 
-.img-fluid.poetry-img {
-  width: 90%;
-  height: 80%;
+.contact {
+  margin-bottom: 10rem;
 }
 
 /*# sourceMappingURL=main.css.map */

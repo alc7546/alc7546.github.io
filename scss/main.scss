@@ -47,19 +47,26 @@ body{
     }
 }
 
+//Skill Header
+
+// Skill Icons
+
+// Skills List
+
+
+// Project Header
 .project-header{
     margin-top:8rem;
 }
 
+// Project Content
+.project{
+  padding-top:2rem;
+}
+
+// Contact
 .contact{
     margin-bottom: 10rem;
-}
-// Image Sizer -- will change for actual images that will be sized properly!
-.img-fluid{
-    &.poetry-img{
-        width: 90%;
-        height: 80%;
-    }
 }
 
 // Animations
