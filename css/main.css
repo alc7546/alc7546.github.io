@@ -9540,12 +9540,38 @@ body {
   padding-top: 5rem;
 }
 
-.project-header {
-  margin-top: 8rem;
+.skills-header-container {
+  padding-top: 8rem;
+}
+.skills-header-container h2 {
+  padding-bottom: 2rem;
+}
+.skills-header-container .skill-icons {
+  padding-bottom: 2rem;
+}
+.skills-header-container .list-group-item {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
-.project {
-  padding-top: 2rem;
+.project-header {
+  padding-top: 8rem;
+}
+
+.project-container .project-title {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.project-container .project-title-after {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.project-container p {
+  font-size: 1.2rem;
+}
+.project-container p.project-software {
+  font-size: 1.3rem;
 }
 
 .contact {

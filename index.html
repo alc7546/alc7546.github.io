@@ -26,6 +26,9 @@
                     <a href="#" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
                     <a href="#project" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
@@ -40,7 +43,7 @@
         <div class = "container">
         <div class = "text-center">
             <h1 class = "display-1">Hi there!</h1>
-            <h1 class = "display-5">My name is Andrew, I'm a student at Rochester Institute of Technology and 
+            <h1 class = "display-6">My name is Andrew, I'm a student at Rochester Institute of Technology and 
                 I'm developing responsive front-end applications. When I'm not behind a computer, 
                 I enjoy playing hockey, watching movies, and finding dogs to pet. 
                 I'm looking forward to expanding my capabilities, and diving even deeper into the world of web.
@@ -51,8 +54,8 @@
 
     <!--Skills Header-->
     <a name = "skills"></a>
-    <div class = "container skills-header">
-        <h1 class = "display-4 text-center">Skills</h1>
+    <div class = "container skills-header-container">
+        <h2 class = "display-4 text-center ">Skills</h2>
 
         <!--Icons: With Animations; Seperate Row-->
         <div class = "row skill-icons">
@@ -94,7 +97,7 @@
                         <li class = "list-group-item">JavaScript</li>
                         <li class = "list-group-item">Node.js</li>
                         <li class = "list-group-item">Git</li>
-                        <li class = "list-group-item">Unity</li>
+                        <li class = "list-group-item">Xcode</li>
                     </ul>
             </div>
         </div>
@@ -102,39 +105,45 @@
     <!--Projects Header-->
     <a name="project"></a>
     <div class = "container project-header">
-            <h1 class = "display-4 text-center">Projects</h1>
+            <h2 class = "display-4 text-center">Projects</h2>
     </div>
 
     <!--Projects Content-->
-    <div class = "container">
-        <h4 class = "text-center project">Poetry Builder</h4>
+    <div class = "container project-container">
+        <h3 class = "text-center project-title">Poetry Builder</h4>
         <div class = "row">
             <div class = "col-4">
-                
-                <img src = "img/PoetryBuilder.png" alt = "Poetry Builder Image" class = "img-fluid float-left poetry-img">
-                
+                <img src = "img/PoetryBuilder.png" alt = "Poetry Builder Image" class = "img-fluid float-left project-img ">
             </div>
             <div class = "col-8">
-                <h5 class = "float-left">Role</h5>
-                <h5 class = "float-right">Date</h5>
-                <p class = "float-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eros nisl, at 
-                    imperdiet urna porttitor ut. Ut venenatis suscipit sem. Ut rutrum interdum libero ut 
-                    venenatis. Aenean non hendrerit sapien, volutpat porta erat. Duis sed feugiat mi. 
-                    Vivamus lectus eros, fermentum id venenatis malesuada, dictum sit amet dui. 
-                    Pellentesque eget accumsan sapien. Fusce id eleifend mauris.
+                <h4 class = "float-left">iOS App</h5>
+                <h4 class = "float-right">Feb 2019 - Present</h5>
+                <p class = "float-left">I'm in the process of developing an iOS app that allows
+                    users to express their creativity by assembling poems with themed word sets. 
+                </p>
+                <p class = "float-left">Users can customize their experience with different backgrounds,
+                    fonts, and colors, that are transitioned into the view with a crisp animation.
+                </p>
+                <p class = "float-left text-muted project-software">
+                    Software Used: Swift 4.2, Xcode 10.1, Adobe Illustrator, MacOSX, Git
                 </p>
             </div>
         </div>
 
-        <h4 class = "text-center project">Project Example 2</h4>
+        <h3 class = "text-center project-title-after">Music Geo Charts</h4>
         <div class = "row">
             <div class = "col-8">
-                
-                <p class = "float-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eros nisl, at 
-                    imperdiet urna porttitor ut. Ut venenatis suscipit sem. Ut rutrum interdum libero ut 
-                    venenatis. Aenean non hendrerit sapien, volutpat porta erat. Duis sed feugiat mi. 
-                    Vivamus lectus eros, fermentum id venenatis malesuada, dictum sit amet dui. 
-                    Pellentesque eget accumsan sapien. Fusce id eleifend mauris.
+                <h4 class = "float-left">Web Application</h5>
+                <h4 class = "float-right">Dec 2018</h5>
+                <p class = "float-left">I helped develop a web application that implemented external APIs 
+                    to show the user different artist charts depending on the selected country.
+                </p>
+                <p class = "float-left">I was responsible for hooking up the Google Maps API, implementing it with
+                    Vue.js to change the data displayed on the charts. I also implemented a basic database with
+                    Google Firebase to store the countries that users selected.
+                </p>
+                <p class = "float-left text-muted project-software">
+                    Software Used: Swift 4.2, Xcode 10.1, Adobe Illustrator, MacOSX, Git
                 </p>
             </div>
             <div class = "col-4">
@@ -142,7 +151,7 @@
             </div>
         </div>
 
-        <h4 class = "text-center project">Project Example 3</h4>
+        <h3 class = "text-center project-title-after">Project Example 3</h4>
         <div class = "row">
             <div class = "col-4">
                 <img src = "img/SquareTestPic.png" alt = "Poetry Builder Image" class = "img-fluid float-left poetry-img">
@@ -158,7 +167,7 @@
             </div>
         </div>
 
-        <h4 class = "text-center project">Project Example 4</h4>
+        <h3 class = "text-center project-title-after">Project Example 4</h4>
         <div class = "row">
             <div class = "col-8">
                 
