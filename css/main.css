@@ -9577,5 +9577,19 @@ body {
 .contact {
   margin-bottom: 10rem;
 }
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.contact a:hover {
+  color: #86C5D8;
+}
+.contact .icon {
+  font-size: 4rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=main.css.map */

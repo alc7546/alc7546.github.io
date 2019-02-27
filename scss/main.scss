@@ -90,6 +90,21 @@ body{
 // Contact
 .contact{
     margin-bottom: 10rem;
+    a{
+        text-decoration: none;
+        color:black;
+        
+    }
+    a:hover{
+        color:#86C5D8;
+    }
+    .icon{
+        font-size: 4rem;
+        margin-left:1rem;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+    }
 }
 
 // Animations
