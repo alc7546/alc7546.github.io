@@ -9591,5 +9591,8 @@ body {
   margin-bottom: 2rem;
   text-decoration: none;
 }
+.contact p {
+  font-size: 1.2rem;
+}
 
 /*# sourceMappingURL=main.css.map */
